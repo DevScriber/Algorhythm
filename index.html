@@ -25,9 +25,14 @@
       href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- External CSS -->
     <script type="module" crossorigin src="/freelance-artists/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/freelance-artists/assets/index-DT0G8KqC.css">
+    <link rel="stylesheet" crossorigin href="/freelance-artists/assets/index-B3OStSSL.css">
   </head>
   <body>
     <header class="header">
@@ -341,9 +346,9 @@
         our services and the freshness of our products.
       </p>
     </div>
-    <div class="slider-container">
-      <ul class="reviews-list slider">
-        <li class="reviews-item item-john slide">
+    <div class="swiper">
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide">
           <div class="card-reviews">
             <img
               src="data:image/webp;base64,UklGRuoDAABXRUJQVlA4WAoAAAAQAAAANwAANwAAQUxQSFEBAAABgFvbttPoZhiZfCwdUIGoYbwrREwJmCJkJ2e6IEQtaP0lZT/ChHpj4f/3GoiICYBRZzbflPvmRI0qt/HMAU/vtahpYFu8ufbOMk1GdXJuZ5p2ZLxNJxZujmT18GDKX5L1hWckqIjhLjAQKmKpwkGhJqY6HBAoYquCXt6OGFd+nwWxXvZ4IOY3/0wO3I7Tv1Jin/5x3vLrzn4lJDAD4GoJ2gPeSOQrUMgo4LQyaicioVEsJd5K2ZRSSiVl30hpSOrpJIUaKc1eiiqllBspH3MpcSRl5tQyWgeFjAJ4lfEGeFqCdgFkEhIAOOv4tee/kPJL8ef0yO0w+Qu33B7x/5LXAj39itPO64NA8VEB+oeaiw4xNFQ8VIjhwY5DFcCkt7S38mH48WDneAvzk6w116VTWD1PtBmdn8G6+/bZDqmLVw88nej9o1QNnZp9uY0jB0YBAFZQOCByAgAA8AsAnQEqOAA4AD6RQJxKpaOioaYVWxCwEglAGdUKAGe8dIARh62OXBpgGb0/o2qQuWdZ/aiV4f9wV0S+APGg8SqKaH7rYiHYWk7+Yj7rTmOFtn3M+mncJzapBrXSOZNrXQtgwKumLwAA/u9MP/8/7//n5j//zqegAT4ej9n1RT0IDqLX7ba8FhIM9rnZtYxW2YGW67jOVm17ayJcXB2wp9HmK+bB4Fa9x+9sQvm2MOac+RktsvOhTNOOy+Ad7yeupSgmlMjt5qBkQ+EyrcOYZH8GI36az//+MVRsEWuPTAiSBw6O4YnQcNSCR8R/D8JVFTvJ7DLMraIVBK8SxeC3wOvWqAvwbgeI0Nw67dd1qk/HaUefLl9pjxlPNl2GxBSHvCKBuZU15/OAf/WSHNHddWQWKPPKXaxY0xUPTP0LntaAn2k3j+aP/Cp/mYkMAkxCh+QbnziepmIlTvfVfhfn3Dxvld4+AGzb98U8A2GjyD46SfphuaOmndwraPnDE0hueukxbwuL6E38tm+2hmGGEjM7YzDWYPqg0ibrZpDH7qOt/nqLmDBQYx8LlGQcBmhraZL7kcnE4S5WI2GbREazse1Gq7Htc7WOudt1eq00G0qf4UxDkgxN7Ss74fAxsVLxdPOAjfuCzkRF4a/wh6MrwunAFAN+UeFUHVh88z/J4z1EywtXWPWHosehEwnYfMrPvNP+9d//63m2VmagQWk931UcbGVvkSA7WmrTaqm2H/LSUNeSALxfCYX5tlFOEwSWz69R2qaF7H+vNPO6NRE/57XVaLnAXjtHhNXlhS9SF+AOd314/rjYGIMPY1/9/7gAAAA="
@@ -362,8 +367,8 @@
             </div>
           </div>
         </li>
-        <li class="reviews-item item-victoria slide">
-          <div class="card-reviews">
+        <li class="swiper-slide">
+          <div class="card-reviews card-victoria">
             <img
               src="data:image/webp;base64,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"
               alt="Victoria Romashenko"
@@ -381,7 +386,7 @@
             </div>
           </div>
         </li>
-        <li class="reviews-item item-ihor slide">
+        <li class="swiper-slide">
           <div class="card-reviews">
             <img
               src="data:image/webp;base64,UklGRpoFAABXRUJQVlA4II4FAAAQHgCdASpwAHAAPpE8mUmloyIhLbGK2LASCWMA05TGyp5irJ9n6fQqJLTfwlzQgq6ah5iO9dFEst5If/+8lwvSMDJhaJXn8vl4gEAm/hOm4xfdssOc7W0sagoezptcsUSozLe3t8VgryImcf4iMf73tEpVTTx2YGv4j9YDggvqi5VqonDSjp7hntnQYohbAKAV6qeU78PCgouNOn4KfauGRKEf5cXM0t7XFpkolkbQyGP9XPJUa38fXDuLRnuQbpigZLiPPh2EBcvoJysTNmLyF9EsbaIP+YHbddqSQ2L9tR9YWAbIQjcvhos6xkM8QEqDiOUntBPsHAwA/vz0FywC8sXtqc9KGgCeYABDpITKRKbnjzVlGfvw9FbX6qesU7qST+GTofB8XYaL9RuwZpFRD3nMYHtEWMl+RIgJD71BTLIRtjBLJqBiOOX9PGa/mqz8TamtZk5BVuGsUe2JjDUho6kI/g9f6qHKUjdNdhwfZDnubfvgrh4R6l2exsSp1Jh0WOgApbKsZ0vb4ZxulmnaJlxA9eGpQQlKX01Ap7ZEt/SjMpVkVaD/lIVVi4LTgoVQsOsrPLmQ65NsJVV/nrcy4thezUz+ow+ZSeQ71Hxdrde15z2Qhsq8q+8Bwn7Tb3cHZ/IqjsIOsGUnBMExBH82efQBj4ONyO+puKeigBaYoRwrJsuDbcfYOo9ldqZvgj/hHIMFPCKwwlZ8H9md394Zsjlh8jtcaR/+kR3ur80oXEsp8ZU1iELuimgSdZderSvEhZm4TIhTjkhpfqSUnRltNwOqIyNh2x04NUzND7lmvp79fqfISz7jzOj5Z0Eeo+NT5PrNSa+jpZX6p7Ywg9goueumVzzKaIzYJjll5Hh9H81RuwAEiBIuRAq0MOditK0H0vqZ1yT9OTuYR84YNLNXoCAOKD9Wj4raK/+uqh8Pstbc228dBaoSN6z94MHBum4i/Cm01mnYZF66F0H4yzMeoCmqE47StLHLHKzhjYG/iIVT87Dw1Ic4KYDvWweNO52N3XnrwVZ4sV5DjzV7sG0opWntBzBccLJF5yFS/BGIuRwSHKx2g7F6isgBBZvBCcWcbDSViIVgbQYkPLesEK2yMPVM1qg4lbZr5KPZ2HLvXEUTdBtTliYPEF9v9Ww54b3aKtMkdzPuq5tYs4bgo0qbtGkY+IIjBTATR4Qcw4orgqTeIio95DavHKDZEkc0f7ts76rWH0sZUjHm94UT7m2c7QnXLERJyj5bUIewZ9F5Ywn2vDSMJHh/EL/os2e8ShmvHHjmJwkMw+fscLto2Vs26P+rZoUJ36H/G5lNSjsOgiKdMnz2K7sPumKy6HEirkJY90ZL3sg/zcShyEpic7P0ayAdhiUreKI5aDROYlgzIe+PsnpxippcnKMi9wJ3BY3vslb2TlIfiaO3AZtMK9qUQ9tOnwJs/iuqu6FVxpRGHtEVgVf46xgTMYcXuBv9eI4glBuUqdZV2SfddRSXSUnWLGj+KZKvufrn68s0IGa3X3+ToTiz5p9noKYxU8LgWgVhYUHbcLjkZN6I3OoOGek8GITmjVtbbjaXqPTdSybt1RvkaICoPBZeMZQfF/ftdrehlJZJpfBMlQhHuk35LZONSruHWdAvii3Roc8Ey+vX+KI9C3oDqupBRQpKkuBMYjcFRDTwkEhHg43yrwtnbG1aXDsahlmY9CIPZXFywbqB+fiwlBGno59vjKcaRQ5UjyT1vUq8+US4/lj8FGTjRFWkw9JvHH64JPrVrJg1WrYdXX2WswW50eQTzKOHKlcGaTlqBC4xMXSFy1bPr6afb3VYcIoLGVQALHit8yvvww0T9tbu7M29o79ztt4VvvTp7gblWkIqReQp8khPcl6PGUN7NDpL4TtCxU4YYzXtWAA="
@@ -401,12 +406,12 @@
           </div>
         </li>
       </ul>
-
-      <ul class="point-list-revies indicators">
+      <div class="swiper-pagination"></div>
+      <!-- <ul class="point-list-revies indicators">
         <li class="point-item-reviews indicator active"></li>
         <li class="point-item-reviews indicator"></li>
         <li class="point-item-reviews indicator"></li>
-      </ul>
+      </ul> -->
     </div>
   </div>
 </section>
@@ -634,5 +639,6 @@
 </div>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>
