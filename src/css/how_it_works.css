@@ -58,12 +58,19 @@
   background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: var (--transition-transform);
 }
 
 .steps-list-item:nth-child(2) {
   padding-right: 60px;
   padding-top: 18px;
   padding-bottom: 18px;
+}
+
+.steps-list-item:hover,
+.steps-list-item:focus,
+.steps-list-item:active {
+  transform: scale(1.05);
 }
 
 .steps-list-item::before {
@@ -96,6 +103,7 @@
     padding-bottom: 100px;
     margin: 0 -32px;
   }
+
   .how-it-works-text-list {
     padding: 100px 132px;
   }
