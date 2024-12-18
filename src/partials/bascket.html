@@ -1,0 +1,35 @@
+<div class="backdrop is-open" data-modal>
+  <div class="modal">
+    <button class="click-button" type="button" data-modal-close>
+      <svg class="icon-click" width="8" height="8">
+        <use href="./images/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <p class="text-modal"></p>
+
+    <form class="form-modal">
+      <div class="modal-window-comment">
+        <label class="window" for="user-comment"></label>
+        <textarea
+          class="comment"
+          id="user-comment"
+          name="user-comment"
+          placeholder=""
+        ></textarea>
+      </div>
+      <div class="modal-window">
+        <label class="window" for="user-name"></label>
+        <div class="modal-window-info">
+          <input
+            class="info-input"
+            id="user-name"
+            name="user-name"
+            type="text"
+          />
+        </div>
+      </div>
+      <button class="btn-modal" type="submit">SENT</button>
+    </form>
+  </div>
+</div>
