@@ -1,35 +1,98 @@
-<div class="backdrop is-open" data-modal>
-  <div class="modal">
-    <button class="click-button" type="button" data-modal-close>
-      <svg class="icon-click" width="8" height="8">
-        <use href="./images/icons.svg#icon-close"></use>
+<div class="backdrop is-open">
+  <div class="modal-blancket">
+    <button class="click-button" type="button">
+      <svg
+        width="40"
+        height="40"
+        viewBox="0 0 40 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M30 10L10 30"
+          stroke="#FBFBFB"
+          stroke-width="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M10 10L30 30"
+          stroke="#FBFBFB"
+          stroke-width="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
       </svg>
     </button>
 
-    <p class="text-modal"></p>
+    <p class="title-blancket">YOUR BLANCKET</p>
 
-    <form class="form-modal">
-      <div class="modal-window-comment">
-        <label class="window" for="user-comment"></label>
-        <textarea
-          class="comment"
-          id="user-comment"
-          name="user-comment"
-          placeholder=""
-        ></textarea>
+    <section class="cart-blancket">
+      <div class="block-blancket">
+        <div class="text-tab">product</div>
+        <div class="text-tab">count</div>
+        <div class="text-tab">cost</div>
       </div>
-      <div class="modal-window">
-        <label class="window" for="user-name"></label>
-        <div class="modal-window-info">
-          <input
-            class="info-input"
-            id="user-name"
-            name="user-name"
-            type="text"
-          />
+      <section class="product-tab">
+        <div class="product-image">
+          <picture>
+            <source
+              media="max-width: 1280px"
+              srcset="
+                /img/desktop/vegetables-eggplant-img.webp,
+                /img/desktop/vegetables-eggplant-img@2x.werp
+              "
+            />
+            <source
+              media="max-width: 768px"
+              srcset="
+                /img/tablet/vegetables-eggplant-img.webp,
+                /img/tablet/vegetables-eggplant-img@2x.webp
+              "
+            />
+            <img
+              src="../img/mobile/vegetables-eggplant-img.webp"
+              alt="Eggplant"
+              width="240"
+              height="200"
+            />
+          </picture>
+          <p class="product-title">eggplant</p>
         </div>
+
+        <div class="product-count">count</div>
+        <div class="product-price">60 USD / kg</div>
+        <div class="product-delete">
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 10L10 30"
+              stroke="#FBFBFB"
+              stroke-width="4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10 10L30 30"
+              stroke="#FBFBFB"
+              stroke-width="4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </section>
+      <div class="blancket-tab-price">
+        <div class="cart-blancket-count">1 kg</div>
+        <div class="cart-blancket-price">60 USD / kg</div>
       </div>
-      <button class="btn-modal" type="submit">SENT</button>
-    </form>
+
+      <button class="btn-blancket" type="submit">SENT</button>
+    </section>
   </div>
 </div>
