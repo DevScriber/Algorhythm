@@ -2,22 +2,22 @@
   <div class="modal-blancket">
     <button class="click-button" type="button">
       <svg
-        width="40"
-        height="40"
+        width="30"
+        height="30"
         viewBox="0 0 40 40"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
           d="M30 10L10 30"
-          stroke="#FBFBFB"
+          stroke="var(--white-text)"
           stroke-width="4"
           stroke-linecap="round"
           stroke-linejoin="round"
         />
         <path
           d="M10 10L30 30"
-          stroke="#FBFBFB"
+          stroke="var(--white-text)"
           stroke-width="4"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -32,6 +32,7 @@
         <div class="text-tab">product</div>
         <div class="text-tab">count</div>
         <div class="text-tab">cost</div>
+        <div class="text-tab">delete</div>
       </div>
       <section class="product-tab">
         <div class="product-image">
@@ -60,26 +61,37 @@
           <p class="product-title">eggplant</p>
         </div>
 
-        <div class="product-count">count</div>
+        <div class="product-count">
+          <label class="count">
+            <input
+              class="input-count"
+              type="number"
+              value="1"
+              min="1"
+              max="100"
+            />
+          </label>
+        </div>
         <div class="product-price">60 USD / kg</div>
         <div class="product-delete">
           <svg
-            width="40"
-            height="40"
+            class="icon-delete"
+            width="20"
+            height="20"
             viewBox="0 0 40 40"
-            fill="none"
+            fill=""
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               d="M30 10L10 30"
-              stroke="#FBFBFB"
+              stroke="var(--white-text)"
               stroke-width="4"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
             <path
               d="M10 10L30 30"
-              stroke="#FBFBFB"
+              stroke="var(--white-text)"
               stroke-width="4"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -88,7 +100,6 @@
         </div>
       </section>
       <div class="blancket-tab-price">
-        <div class="cart-blancket-count">1 kg</div>
         <div class="cart-blancket-price">60 USD / kg</div>
       </div>
 
