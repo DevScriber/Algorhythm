@@ -32,7 +32,7 @@
     />
     <!-- External CSS -->
     <script type="module" crossorigin src="/freelance-artists/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/freelance-artists/assets/index-DK3gqdBf.css">
+    <link rel="stylesheet" crossorigin href="/freelance-artists/assets/index-DyYPneU8.css">
   </head>
   <body>
     <header class="header">
@@ -407,11 +407,6 @@
         </li>
       </ul>
       <div class="swiper-pagination"></div>
-      <!-- <ul class="point-list-revies indicators">
-        <li class="point-item-reviews indicator active"></li>
-        <li class="point-item-reviews indicator"></li>
-        <li class="point-item-reviews indicator"></li>
-      </ul> -->
     </div>
   </div>
 </section>
@@ -545,11 +540,20 @@
     <footer class="footer">
   <div class="container footer-container">
     <div class="footer-description">
-      <a class="footer-logo-link" href="/index.html">
+      <a
+        class="footer-logo-link"
+        href="/index.html"
+        aria-label="green harvest logo"
+      >
         <svg class="footer-boxlogo" width="20" height="20">
           <use href="/freelance-artists/assets/sprite-CL7lBZGE.svg#boxlogo"></use>
         </svg>
-        <svg class="footer-logo" width="186.67" height="16.67">
+        <svg
+          class="footer-logo"
+          width="186.67"
+          height="16.67"
+          aria-label="Green Harvest logo"
+        >
           <use href="/freelance-artists/assets/sprite-CL7lBZGE.svg#logo"></use>
         </svg>
       </a>
@@ -641,7 +645,24 @@
   </div>
 </div>
 
-    
+    <div class="shopping-cart hidden">
+  <div class="container">
+    <h2 class="cart-title">Shopping Cart</h2>
+    <ul class="cart-items"></ul>
+    <div class="cart-total">
+      <strong>Total:</strong> <span class="total-price">0.00</span>
+    </div>
+    <ul class="cart-button-list">
+      <li class="cart-button-item">
+        <button class="continue-shopping">Continue Shopping</button>
+      </li>
+      <li class="cart-button-item">
+        <button class="checkout-button">Place Order</button>
+      </li>
+    </ul>
+  </div>
+</div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
